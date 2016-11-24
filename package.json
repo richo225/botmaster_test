@@ -20,6 +20,7 @@
     "eslint": "^3.10.2"
   },
   "dependencies": {
-    "botmaster": "^2.2.2"
+    "botmaster": "^2.2.2",
+    "dotenv": "^2.0.0"
   }
 }
