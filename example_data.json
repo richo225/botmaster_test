@@ -1,0 +1,34 @@
+{
+  "raw":{
+    "update_id":290278291,
+    "message":{
+      "message_id":60,
+      "from":{
+        "id":262600235,
+        "first_name":"Richard",
+        "last_name":"Bates"
+      },
+      "chat":{
+        "id":262600235,
+        "first_name":"Richard",
+        "last_name":"Bates",
+        "type":"private"
+      },
+      "date":1480034413,
+      "text":"test"
+      }
+  },
+
+  "sender":{
+    "id":262600235
+  },
+  "recipient":{
+    "id":"294494644"
+  },
+  "timestamp":1480034413000,
+  "message":{
+    "mid":290278291,
+    "seq":60,
+    "text":"test"
+  }
+}

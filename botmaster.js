@@ -15,8 +15,14 @@ const telegramSettings = {
 const botsSettings = [{ telegram: telegramSettings }];
 const botmaster = new Botmaster({botsSettings});
 
+// message every time
 botmaster.on("update", (bot, update) => {
-  bot.reply(update, "Right back at you");
+  bot.sendTextMessageTo("Right back at you!", update.sender.id);
+});
+
+// repeats back the message
+botmaster.on("update", (bot, update) => {
+  bot.sendTextMessageTo(update.message.text, update.sender.id);
 });
 
 botmaster.on("error", (bot, err) => {
