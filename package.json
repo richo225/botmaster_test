@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "tunnel": "( while true; do lt -p 3000 -s botmastersubdomain; done; )",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,7 +18,8 @@
   },
   "homepage": "https://github.com/richo225/botmaster_test#readme",
   "devDependencies": {
-    "eslint": "^3.10.2"
+    "eslint": "^3.10.2",
+    "localtunnel": "^1.8.2"
   },
   "dependencies": {
     "botmaster": "^2.2.2",
